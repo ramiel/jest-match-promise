@@ -1,0 +1,34 @@
+{
+  "name": "jest-match-promise",
+  "version": "0.1.0",
+  "description": "Jest matcher to test promise status",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ramiel/jest-match-promise.git"
+  },
+  "keywords": [
+    "jest",
+    "extend",
+    "matcher",
+    "promise",
+    "status"
+  ],
+  "author": "Fabrizio Ruggeri",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ramiel/jest-match-promise/issues"
+  },
+  "homepage": "https://github.com/ramiel/jest-match-promise#readme",
+  "devDependencies": {
+    "eslint": "^5.12.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0"
+  },
+  "dependencies": {
+    "promise-status-async": "^1.1.9"
+  }
+}
